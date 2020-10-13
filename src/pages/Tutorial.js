@@ -215,9 +215,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     alignContent: 'center',
+    width: '200%'
   },
   text: {
-    fontFamily: Theme.fonts.primary,
+    // fontFamily: Theme.fonts.primary,
     fontSize: 18,
     width: '30%',
     color: Theme.colors.textDark,

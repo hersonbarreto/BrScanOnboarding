@@ -24,7 +24,7 @@ export default {
     },
     fonts: {
         primary: Platform.select({
-            ios: 'IBMPlexSans',
+            ios: 'IBM Plex Sans',
             android: 'IBM Plex Sans'
         }),
     },

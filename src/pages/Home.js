@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     alignContent: 'center',
   },
   text: {
-    fontFamily: Theme.fonts.primary,
+    // fontFamily: Theme.fonts.primary,
     fontSize: 18,
     color: Theme.colors.textDark,
     alignSelf: 'center',

@@ -42,7 +42,7 @@ class Login extends Component {
     render() {
         const { navigation } = this.props;
         return (
-            <ScrollView style={styles.container}>
+            <View style={styles.container}>
                 <View style={styles.viewLogin}>
                     <Text style={[styles.text, { fontWeight: 'bold', marginLeft: 15 }]}>
                         Para começar, preencha as informações abaixo.
@@ -79,7 +79,7 @@ class Login extends Component {
                         text='Avançar'
                     ></Button>
                 </View>
-            </ScrollView>
+            </View>
 
         );
     }
