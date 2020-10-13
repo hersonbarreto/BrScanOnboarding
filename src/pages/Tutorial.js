@@ -46,7 +46,7 @@ class Tutorial extends Component {
           text='Iniciar'
         ></Button> */}
 
-        <Swiper style={styles.wrapper} loop={false} showsPagination={false} nextButton={true} scrollEnabled={false} index={0} >
+        <Swiper style={styles.wrapper} loop={false} showsPagination={false} nextButton={true} index={0} >
           <View style={styles.viewImage}>
             <View style={styles.viewImage}>
               <Image source={ImagemTutorial1} resizeMode='stretch' tintColor={'black'} />
